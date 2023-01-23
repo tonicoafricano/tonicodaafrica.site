@@ -235,6 +235,37 @@ tr {
       box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
       text-decoration: none!important;
     }
+    .btn{
+  font-family: arial;
+  font-size:14px;
+  font-weight:700;
+  text-transform: uppercase;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+}
+.btn-green{
+  background:green;
+  color:#fff;
+  box-shadow:0 5px 0 #006000;
+}
+.btn2 {
+    text-transform: uppercase;
+    color: black;
+    background-color: #f9bb00;;
+    padding: 20px 60px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 40px -10px #f9bb00db;
+    transition: 0.4s;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Exo 2", Arial, Helvetica, sans-serif;
+}
+
+
     .span-btn {
       text-decoration: none;
       -webkit-font-smoothing: antialiased; 
